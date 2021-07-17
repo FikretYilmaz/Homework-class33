@@ -16,11 +16,7 @@ calculate it!
 
 function calculateDogAge(yourAge) {
   // TODO complete this function
-<<<<<<< HEAD
   if (typeof yourAge !== 'number') {
-=======
-  if (yourAge === 'string') {
->>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
     return 'Please Enter a Number';
   } else if (yourAge <= 0) {
     return 'Please Enter a Number Bigger Than Zero(0)';

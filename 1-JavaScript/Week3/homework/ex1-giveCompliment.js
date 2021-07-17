@@ -35,13 +35,8 @@ function giveCompliment(name) {
     'cool',
   ];
   return `You are ${
-<<<<<<< HEAD
     compliments[Math.floor(Math.random() * compliments.length)]
   }, ${name}!`;
-=======
-    complimentList[Math.floor(Math.random() * complimentList.length)]
-  } ${name}`;
->>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
 
   // TODO complete this function
   /* To check the index of complimentList Array
