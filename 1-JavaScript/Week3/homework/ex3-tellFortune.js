@@ -28,7 +28,7 @@ Note: The DRY is put into practice here: instead of repeating the code to
 randomly select array elements four times inside the `tellFortune` function 
 body, this code is now written once only in a separated function.
 -----------------------------------------------------------------------------*/
-const numKids = [1, 2, 3, 6];
+const numKids = [1, 2, 3, 6,5];
 // TODO add elements here
 
 const partnerNames = ['Jane', 'Emine', 'Julia', 'Rose', 'Saskia'];

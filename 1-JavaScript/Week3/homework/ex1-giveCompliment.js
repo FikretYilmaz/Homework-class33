@@ -18,11 +18,7 @@
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
 function giveCompliment(name) {
-<<<<<<< HEAD
   const compliments = [
-=======
-  const complimentList = [
->>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
     'awesome',
     'smart',
     'great',
