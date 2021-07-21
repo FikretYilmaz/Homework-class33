@@ -1,0 +1,9 @@
+
+*** ESLint Report ***
+
+ex4-observable/ex4-observable.js
+  20:7  warning  Remove commented-out code  hyf/no-commented-out-code
+  31:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+

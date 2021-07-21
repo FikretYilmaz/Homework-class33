@@ -1,4 +1,7 @@
 'use strict';
+
+//const { map } = require('lodash');
+
 /*
 - Complete the function names `computeEarnings`. It should take an array of
   tasks and an hourly rate as arguments and return a formatted Euro amount
@@ -29,15 +32,20 @@ const mondayTasks = [
 
 const hourlyRate = 25;
 
-function computeEarnings(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function computeEarnings(myTasks, myDuration) {
+  const myResult = myTasks
+    .map((computeEarning) => (computeEarning.duration * myDuration) / 60)
+    .reduce(function (total, task) {
+      return total + task;
+    }, 0);
+  return `€${myResult.toFixed(2)}`; //To arrange how many digit do you want after the integer number
 }
+console.log(computeEarnings(mondayTasks, hourlyRate));
 
 // ! Unit tests (using Jest)
 describe('computeEarnings', () => {
   test('should take two parameters', () => {
-    // The `.length` property indicates the number of parameters expected by
-    // the function.
+    // The `.length` property indicates the number of parameters expected by the function.
     expect(computeEarnings).toHaveLength(2);
   });
 
