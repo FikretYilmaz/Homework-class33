@@ -1,0 +1,889 @@
+2021-07-27 08:15:24 info: ----------------------------------------
+2021-07-27 08:15:24 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:15:24 info: ----------------------------------------
+2021-07-27 08:15:36 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+        at Object.<anonymous>.exports.convert (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:25:9)
+        at HTMLDivElement.appendChild (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:390:26)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:89:37
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:15:38 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  43:7  warning  'bookLists' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  66:5  warning  Remove commented-out code                             hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-07-27 08:15:41 error: *** Spell Checker Report ***
+
+ex1-bookList/index.js:68:16 - Unknown word (Phrag)
+ex1-bookList/index.js:75:33 - Unknown word (Phrag)
+
+2021-07-27 08:15:58 info: ----------------------------------------
+2021-07-27 08:15:58 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:15:58 info: ----------------------------------------
+2021-07-27 08:16:06 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+        at Object.<anonymous>.exports.convert (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:25:9)
+        at HTMLDivElement.appendChild (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:390:26)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:89:37
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:16:07 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  43:7  warning  'bookLists' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  66:5  warning  Remove commented-out code                             hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-07-27 08:16:09 error: *** Spell Checker Report ***
+
+ex1-bookList/index.js:68:16 - Unknown word (Phrag)
+ex1-bookList/index.js:75:33 - Unknown word (Phrag)
+
+2021-07-27 08:20:31 info: ----------------------------------------
+2021-07-27 08:20:31 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:20:31 info: ----------------------------------------
+2021-07-27 08:20:38 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+        at Object.<anonymous>.exports.convert (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:25:9)
+        at HTMLDivElement.appendChild (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:390:26)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:88:37
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:20:41 error: *** Spell Checker Report ***
+
+ex1-bookList/index.js:67:16 - Unknown word (Parag)
+ex1-bookList/index.js:74:33 - Unknown word (Parag)
+
+2021-07-27 08:21:43 info: ----------------------------------------
+2021-07-27 08:21:43 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:21:43 info: ----------------------------------------
+2021-07-27 08:21:51 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+        at Object.<anonymous>.exports.convert (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:25:9)
+        at HTMLDivElement.appendChild (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:390:26)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:88:37
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:23:46 info: ----------------------------------------
+2021-07-27 08:23:46 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:23:46 info: ----------------------------------------
+2021-07-27 08:23:53 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+        at Object.<anonymous>.exports.convert (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:25:9)
+        at HTMLDivElement.appendChild (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:390:26)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:88:37
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:30:03 info: ----------------------------------------
+2021-07-27 08:30:03 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:30:03 info: ----------------------------------------
+2021-07-27 08:30:11 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [ReferenceError: Cannot access 'ulElement' before initialization]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) ReferenceError: Cannot access 'ulElement' before initialization
+        at createBookList (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:84:3)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:87:19
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:30:38 info: ----------------------------------------
+2021-07-27 08:30:38 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:30:38 info: ----------------------------------------
+2021-07-27 08:30:46 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [SyntaxError: Illegal return statement]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:89
+    return ulElement;
+    ^^^^^^
+    
+    SyntaxError: Illegal return statement
+        at new Script (vm.js:102:7)
+        at createScript (vm.js:263:10)
+        at Object.runInContext (vm.js:294:10)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:31:01 info: ----------------------------------------
+2021-07-27 08:31:01 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:31:01 info: ----------------------------------------
+2021-07-27 08:31:09 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+        at Object.<anonymous>.exports.convert (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:25:9)
+        at HTMLDivElement.appendChild (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\Node.js:390:26)
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex1-bookList/index.js:88:37
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 08:33:05 info: ----------------------------------------
+2021-07-27 08:33:05 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:33:05 info: ----------------------------------------
+2021-07-27 08:33:13 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-bookList.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex1-bookList.test.js
+  Generated HTML
+    × HTML should be syntactically valid (103 ms)
+    √ should contain a <ul> that is a child of <div id="bookList"> (2 ms)
+    √ should contain a <ul> with 3 <li> elements (2 ms)
+    √ should contain an <li> with title and author for each book of the `myBooks` array (1 ms)
+    √ should contain an <img> element for each book (5 ms)
+
+  ● Generated HTML › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      10:272   error  <img> is missing required \"alt\" attribute  wcag/h37
+      10:728   error  <img> is missing required \"alt\" attribute  wcag/h37
+      10:1028  error  <img> is missing required \"alt\" attribute  wcag/h37
+    
+    ✖ 3 problems (3 errors, 0 warnings)
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 | 
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex1-bookList.test.js:39:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        5.53 s
+Ran all test suites matching /ex1-bookList.test.js/i.
+
+2021-07-27 08:33:52 info: ----------------------------------------
+2021-07-27 08:33:52 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:33:52 info: ----------------------------------------
+2021-07-27 08:33:59 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-bookList.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex1-bookList.test.js
+  Generated HTML
+    × HTML should be syntactically valid (107 ms)
+    √ should contain a <ul> that is a child of <div id="bookList"> (2 ms)
+    √ should contain a <ul> with 3 <li> elements (2 ms)
+    √ should contain an <li> with title and author for each book of the `myBooks` array (2 ms)
+    √ should contain an <img> element for each book
+
+  ● Generated HTML › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      10:272   error  <img> is missing required \"alt\" attribute  wcag/h37
+      10:728   error  <img> is missing required \"alt\" attribute  wcag/h37
+      10:1028  error  <img> is missing required \"alt\" attribute  wcag/h37
+    
+    ✖ 3 problems (3 errors, 0 warnings)
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 | 
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex1-bookList.test.js:39:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        5.557 s
+Ran all test suites matching /ex1-bookList.test.js/i.
+
+2021-07-27 08:37:26 info: ----------------------------------------
+2021-07-27 08:37:26 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-07-27 08:37:26 info: ----------------------------------------
+2021-07-27 08:37:34 info: All unit tests passed.
+2021-07-27 08:37:37 info: All steps were completed successfully
+2021-07-27 08:38:08 info: ---------------------------------------
+2021-07-27 08:38:08 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-07-27 08:38:08 info: ---------------------------------------
+2021-07-27 08:38:16 info: All unit tests passed.
+2021-07-27 08:38:17 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  31:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-27 08:38:19 error: *** Spell Checker Report ***
+
+ex2-aboutMe/index.js:14:18 - Unknown word (Fiko)
+ex2-aboutMe/index.js:14:35 - Unknown word (Heerhugowaard)
+
+2021-07-27 08:39:48 info: ---------------------------------------
+2021-07-27 08:39:48 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-07-27 08:39:48 info: ---------------------------------------
+2021-07-27 08:39:55 info: All unit tests passed.
+2021-07-27 08:39:57 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  31:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-27 08:41:00 info: ---------------------------------------
+2021-07-27 08:41:00 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-07-27 08:41:00 info: ---------------------------------------
+2021-07-27 08:41:08 info: All unit tests passed.
+2021-07-27 08:41:09 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  29:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-27 08:42:05 info: ---------------------------------------
+2021-07-27 08:42:05 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-07-27 08:42:05 info: ---------------------------------------
+2021-07-27 08:42:13 info: All unit tests passed.
+2021-07-27 08:42:16 info: All steps were completed successfully
+2021-07-27 06:32:44 info: ------------------------------------------
+2021-07-27 06:32:44 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-07-27 06:32:44 info: ------------------------------------------
+2021-07-27 06:32:51 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-hijackLogo.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex3-hijackLogo.test.js
+  hijackLogo
+    √ should set the `src` property (37 ms)
+    × should set the `srcset` property (4 ms)
+
+  ● hijackLogo › should set the `srcset` property
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      28 | 
+      29 |   test('should set the `srcset` property', () => {
+    > 30 |     expect(state.srcset).toBeDefined();
+         |                          ^
+      31 |   });
+      32 | });
+      33 | 
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex3-hijackLogo.test.js:30:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        4.026 s
+Ran all test suites matching /ex3-hijackLogo.test.js/i.
+
+2021-07-27 06:32:53 error: *** ESLint Report ***
+
+ex3-hijackLogo.js
+  9:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-27 06:33:35 info: ------------------------------------------
+2021-07-27 06:33:35 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-07-27 06:33:35 info: ------------------------------------------
+2021-07-27 06:33:40 info: All unit tests passed.
+2021-07-27 06:33:41 error: *** ESLint Report ***
+
+ex3-hijackLogo.js
+  9:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-27 06:34:00 info: ------------------------------------------
+2021-07-27 06:34:00 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-07-27 06:34:00 info: ------------------------------------------
+2021-07-27 06:34:04 info: All unit tests passed.
+2021-07-27 06:34:07 info: All steps were completed successfully
+2021-07-27 07:33:35 info: --------------------------------------------
+2021-07-27 07:33:35 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:33:35 info: --------------------------------------------
+2021-07-27 07:33:48 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (7.265 s)
+  whatsTheTime
+    × HTML should be syntactically valid (105 ms)
+    × should use `setInterval()` (1 ms)
+    √ should not call `setInterval()` more than once (2007 ms)
+    × should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event (1 ms)
+    √ `window.onload` or `window.addEventListener` should not call its event handler function
+
+  ● whatsTheTime › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      2:2  error  <html> is missing required \"lang\" attribute  element-required-attributes
+      2:8  error  <head> element must have <title> as content  element-required-content
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 | 
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:41:5)
+
+  ● whatsTheTime › should use `setInterval()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 | 
+      43 |   test('should use `setInterval()`', () => {
+    > 44 |     expect(state.setInterval).toBeDefined();
+         |                               ^
+      45 |   });
+      46 | 
+      47 |   test('should not call `setInterval()` more than once', async () => {
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:44:31)
+
+  ● whatsTheTime › should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      55 | 
+      56 |   test('should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event', () => {
+    > 57 |     expect(state.onload).toBeDefined();
+         |                          ^
+      58 |   });
+      59 | 
+      60 |   test('`window.onload` or `window.addEventListener` should not call its event handler function', () => {
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:57:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 2 passed, 5 total
+Snapshots:   0 total
+Time:        9.659 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+
+2021-07-27 07:36:32 info: --------------------------------------------
+2021-07-27 07:36:32 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:36:32 info: --------------------------------------------
+2021-07-27 07:36:42 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Cannot read property 'addCurrentTime' of null]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Cannot read property 'addCurrentTime' of null
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex4-whatsTheTime/index.js:24:15
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 07:37:02 info: --------------------------------------------
+2021-07-27 07:37:02 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:37:02 info: --------------------------------------------
+2021-07-27 07:37:11 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [TypeError: Cannot read property 'addCurrentTime' of null]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) TypeError: Cannot read property 'addCurrentTime' of null
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/2-Browsers/Week1/homework/ex4-whatsTheTime/index.js:24:15
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:295:6)
+        at processJavaScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js:53:33)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:119:14
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-07-27 07:37:28 info: --------------------------------------------
+2021-07-27 07:37:28 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:37:28 info: --------------------------------------------
+2021-07-27 07:37:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (6.218 s)
+  whatsTheTime
+    √ HTML should be syntactically valid (97 ms)
+    √ should use `setInterval()` (1 ms)
+    √ should not call `setInterval()` more than once (2002 ms)
+    × should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event (3 ms)
+    √ `window.onload` or `window.addEventListener` should not call its event handler function (1 ms)
+
+  ● whatsTheTime › should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      55 | 
+      56 |   test('should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event', () => {
+    > 57 |     expect(state.onload).toBeDefined();
+         |                          ^
+      58 |   });
+      59 | 
+      60 |   test('`window.onload` or `window.addEventListener` should not call its event handler function', () => {
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:57:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        7.644 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+
+2021-07-27 07:40:05 info: --------------------------------------------
+2021-07-27 07:40:05 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:40:05 info: --------------------------------------------
+2021-07-27 07:40:15 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (6.406 s)
+  whatsTheTime
+    √ HTML should be syntactically valid (97 ms)
+    √ should use `setInterval()` (1 ms)
+    √ should not call `setInterval()` more than once (2004 ms)
+    √ should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+    × `window.onload` or `window.addEventListener` should not call its event handler function (2 ms)
+
+  ● whatsTheTime › `window.onload` or `window.addEventListener` should not call its event handler function
+
+    expect(received).not.toBeDefined()
+
+    Received: true
+
+      59 | 
+      60 |   test('`window.onload` or `window.addEventListener` should not call its event handler function', () => {
+    > 61 |     expect(state.callError).not.toBeDefined();
+         |                                 ^
+      62 |   });
+      63 | });
+      64 | 
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:61:33)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        7.844 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+
+2021-07-27 07:43:25 info: --------------------------------------------
+2021-07-27 07:43:25 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:43:25 info: --------------------------------------------
+2021-07-27 07:43:34 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (6.251 s)
+  whatsTheTime
+    × HTML should be syntactically valid (108 ms)
+    √ should use `setInterval()`
+    √ should not call `setInterval()` more than once (2009 ms)
+    √ should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+    √ `window.onload` or `window.addEventListener` should not call its event handler function
+
+  ● whatsTheTime › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      2:2  error  <html> is missing required \"lang\" attribute  element-required-attributes
+      2:8  error  <head> element must have <title> as content  element-required-content
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 | 
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:41:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        7.708 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+
+2021-07-27 07:45:11 info: --------------------------------------------
+2021-07-27 07:45:11 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:45:11 info: --------------------------------------------
+2021-07-27 07:45:20 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (6.235 s)
+  whatsTheTime
+    × HTML should be syntactically valid (101 ms)
+    √ should use `setInterval()`
+    √ should not call `setInterval()` more than once (2014 ms)
+    √ should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event (1 ms)
+    √ `window.onload` or `window.addEventListener` should not call its event handler function
+
+  ● whatsTheTime › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      2:2  error  <html> is missing required \"lang\" attribute  element-required-attributes
+      2:8  error  <head> element must have <title> as content  element-required-content
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 | 
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:41:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        7.492 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+
+2021-07-27 07:50:05 info: --------------------------------------------
+2021-07-27 07:50:05 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-07-27 07:50:05 info: --------------------------------------------
+2021-07-27 07:50:15 info: All unit tests passed.
+2021-07-27 07:50:18 info: All steps were completed successfully
+2021-07-27 10:06:27 info: ---------------------------------------
+2021-07-27 10:06:27 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-07-27 10:06:27 info: ---------------------------------------
+2021-07-27 10:06:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-catWalk.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex5-catWalk.test.js (5.776 s)
+  catWalk
+    √ HTML should be syntactically valid (106 ms)
+    √ should use `setInterval()` and/or `setTimeout()` (1 ms)
+    × should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event (2 ms)
+    √ `window.onload` or `window.addEventListener` should not call its event handler function (1 ms)
+
+  ● catWalk › should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 | 
+      43 |   test('should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event', () => {
+    > 44 |     expect(state.onload).toBeDefined();
+         |                          ^
+      45 |   });
+      46 | 
+      47 |   test('`window.onload` or `window.addEventListener` should not call its event handler function', () => {
+
+      at Object.<anonymous> (2-Browsers/Week1/unit-tests/ex5-catWalk.test.js:44:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        7.257 s
+Ran all test suites matching /ex5-catWalk.test.js/i.
+
+2021-07-27 10:06:40 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  25:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-27 10:07:34 info: ---------------------------------------
+2021-07-27 10:07:34 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-07-27 10:07:34 info: ---------------------------------------
+2021-07-27 10:07:43 info: All unit tests passed.
+2021-07-27 10:07:45 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  25:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-28 12:11:30 info: ---------------------------------------
+2021-07-28 12:11:30 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-07-28 12:11:30 info: ---------------------------------------
+2021-07-28 12:11:43 info: All unit tests passed.
+2021-07-28 12:11:50 info: All steps were completed successfully

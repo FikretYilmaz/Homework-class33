@@ -19,8 +19,33 @@
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
+const imgObj = document.querySelector('img');
+imgObj.style.left = '0px';
+let counter = 0;
+// I try to get the current width of screen
+const totalScreen = window.screen.width;
+
 function catWalk() {
   // TODO complete this function
+  counter += 10;
+  imgObj.style.left = counter + 'px';
+  // Change name before the middle of the screen my function is calling two times in second then with -100 my animation can dance 5 minutes
+  if (counter > totalScreen / 2 - 100 && counter <= totalScreen / 2) {
+    imgObj.src =
+      'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+  }
+  if (counter > totalScreen / 2) {
+    imgObj.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+  }
+  if (counter >= totalScreen) {
+    counter = 0;
+  }
 }
 
+window.setInterval(catWalk, 500);
+catWalk();
+
 // TODO execute `catWalk` when the browser has completed loading the page
+window.onload = function () {
+  catWalk();
+};
