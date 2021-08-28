@@ -27,14 +27,26 @@ const totalScreen = window.screen.width;
 
 function catWalk() {
   // TODO complete this function
-  counter += 10;
-  imgObj.style.left = counter + 'px';
+
   // Change name before the middle of the screen my function is calling two times in second then with -100 my animation can dance 5 minutes
-  if (counter > totalScreen / 2 - 100 && counter <= totalScreen / 2) {
+  if (counter < totalScreen / 2) {
+    console.log(totalScreen / 2);
+    counter += 20;
+    imgObj.style.left = counter + 'px';
+    imgObj.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+  }
+  if (counter === totalScreen / 2) {
     imgObj.src =
       'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+    clearInterval(catWalk);
+    setTimeout(function () {
+      catWalk(), (counter = totalScreen / 2 + 20);
+    }, 5000);
+    //
   }
   if (counter > totalScreen / 2) {
+    counter += 20;
+    imgObj.style.left = counter + 'px';
     imgObj.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
   }
   if (counter >= totalScreen) {
@@ -42,8 +54,7 @@ function catWalk() {
   }
 }
 
-window.setInterval(catWalk, 500);
-catWalk();
+window.setInterval(catWalk, 1000);
 
 // TODO execute `catWalk` when the browser has completed loading the page
 window.onload = function () {
