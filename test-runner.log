@@ -10,3 +10,160 @@ ex1-johnWho.js
 ✖ 1 problem (1 error, 0 warnings)
 
 
+2021-08-28 08:22:46 info: -------------------------------------------------
+2021-08-28 08:22:46 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-08-28 08:22:46 info: -------------------------------------------------
+2021-08-28 08:22:52 error: *** Unit Test Error Report ***
+
+  console.log
+    This is a double digit number!
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:25:30
+
+  console.log
+    Expected a double digit number but got 5
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:30:29
+
+  console.log
+    Expected a double digit number but got 123
+
+      at 3-UsingAPIs/Week1/homework/ex2-checkDoubleDigits.js:34:29
+
+
+2021-08-28 08:38:53 info: ----------------------------------------
+2021-08-28 08:38:53 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-08-28 08:38:53 info: ----------------------------------------
+2021-08-28 08:38:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDice.test.js --colors
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js
+  rollDice
+    × should call `new Promise()` (4 ms)
+    × `resolve()` should be called with a one argument (3 ms)
+    × `reject()` should be called with a one argument
+    × should resolve when the dice settles successfully (11 ms)
+    × should reject with an Error when the dice rolls off the table (1 ms)
+
+  ● rollDice › should call `new Promise()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      31 | 
+      32 |   test('should call `new Promise()`', () => {
+    > 33 |     expect(state.newPromise).toBeDefined();
+         |                              ^
+      34 |   });
+      35 | 
+      36 |   test('`resolve()` should be called with a one argument', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:33:30)
+
+  ● rollDice › `resolve()` should be called with a one argument
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: undefined
+
+      35 | 
+      36 |   test('`resolve()` should be called with a one argument', () => {
+    > 37 |     expect(state.resolve).toBe(1);
+         |                           ^
+      38 |   });
+      39 | 
+      40 |   test('`reject()` should be called with a one argument', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:37:27)
+
+  ● rollDice › `reject()` should be called with a one argument
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: undefined
+
+      39 | 
+      40 |   test('`reject()` should be called with a one argument', () => {
+    > 41 |     expect(state.reject).toBe(1);
+         |                          ^
+      42 |   });
+      43 | 
+      44 |   test('should resolve when the dice settles successfully', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:41:26)
+
+  ● rollDice › should resolve when the dice settles successfully
+
+    TypeError: callback is not a function
+
+      30 |     if (roll === randomRollsToDo) {
+      31 |       // TODO replace "success" callback
+    > 32 |       callback(null, value);
+         |       ^
+      33 |     }
+      34 | 
+      35 |     // Schedule the next roll todo until no more rolls to do
+
+      at rollOnce (3-UsingAPIs/Week1/homework/ex3-rollDice.js:32:7)
+      at cb (3-UsingAPIs/Week1/homework/ex3-rollDice.js:37:24)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:52:35
+      at rollOnce (3-UsingAPIs/Week1/homework/ex3-rollDice.js:37:7)
+      at cb (3-UsingAPIs/Week1/homework/ex3-rollDice.js:37:24)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:52:35
+      at rollOnce (3-UsingAPIs/Week1/homework/ex3-rollDice.js:37:7)
+      at rollDice (3-UsingAPIs/Week1/homework/ex3-rollDice.js:42:3)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:54:21)
+
+  ● rollDice › should resolve when the dice settles successfully
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      44 |   test('should resolve when the dice settles successfully', () => {
+      45 |     if (!exported) return;
+    > 46 |     expect.assertions(2);
+         |            ^
+      47 | 
+      48 |     const logSpy = jest.spyOn(console, 'log').mockImplementation();
+      49 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:46:12)
+
+  ● rollDice › should reject with an Error when the dice rolls off the table
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received one assertion call.
+
+      67 |   test('should reject with an Error when the dice rolls off the table', async () => {
+      68 |     if (!exported) return;
+    > 69 |     expect.assertions(2);
+         |            ^
+      70 | 
+      71 |     const logSpy = jest.spyOn(console, 'log').mockImplementation();
+      72 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex3-rollDice.test.js:69:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 5 total
+Snapshots:   0 total
+Time:        2.584 s
+Ran all test suites matching /ex3-rollDice.test.js/i.
+
+2021-08-28 08:51:19 info: ----------------------------------------
+2021-08-28 08:51:19 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-08-28 08:51:19 info: ----------------------------------------
+2021-08-28 08:51:23 info: All unit tests passed.
+2021-08-28 08:51:25 error: *** ESLint Report ***
+
+ex3-rollDice.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
