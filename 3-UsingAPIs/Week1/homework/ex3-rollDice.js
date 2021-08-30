@@ -1,7 +1,5 @@
 'use strict';
 
-const { reject } = require('lodash');
-
 /*------------------------------------------------------------------------------
 - Run the unmodified program and confirm that problem described occurs.
 - Refactor the `rollDice()` function from callback-based to returning a
@@ -26,7 +24,8 @@ function rollDice() {
       // Use callback to notify that the dice rolled off the table after 6 rolls
       if (roll > 6) {
         // TODO replace "error" callback
-        reject(new Error('Oops... Dice rolled off the table.'));
+        return reject(new Error('Oops... Dice rolled off the table.'));
+        // When I Added return to this it doesn't return anything after my dice is out of table
       }
       // Use callback to communicate the final dice value once finished rolling
       if (roll === randomRollsToDo) {
@@ -44,12 +43,13 @@ function rollDice() {
 }
 
 // TODO Refactor to use promise
-rollDice().then((message) => {
-  console.log(message);
-})
-.catch((err) => {
-  console.log(err);
-});
+rollDice()
+  .then((message) => {
+    console.log(message);
+  })
+  .catch((err) => {
+    console.log(err.message); //We have use .message because we create this message line 29 with reject
+  });
 
 // ! Do not change or remove the code below
 module.exports = rollDice;

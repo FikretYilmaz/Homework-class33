@@ -1,7 +1,5 @@
 'use strict';
 
-const { reject } = require('lodash');
-
 /*------------------------------------------------------------------------------
 Rewrite this function, but replace the callback syntax with the Promise syntax:
 - Have the `getAnonName` function return a `new Promise`.
