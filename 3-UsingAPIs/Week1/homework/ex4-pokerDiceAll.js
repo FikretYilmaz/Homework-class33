@@ -24,9 +24,14 @@ exercise file.
 const rollDice = require('../../helpers/pokerDiceRoller');
 
 function rollTheDices() {
-  // TODO Refactor this function
   const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  const promiseTuple = [];
+  dices.map((dice) => {
+    promiseTuple.push(rollDice(dice));
+  });
+  // TODO Refactor this function
+  //I got help from Obada's code
+  return Promise.all(promiseTuple);
 }
 
 rollTheDices()
@@ -35,3 +40,6 @@ rollTheDices()
 
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
+
+//It is because of asynchronous execution(in pokerDiceRoller we have a setTimeout function which is async  func) and promise.all. Promise.all execute every code and give us a global catch for each dice but never stop executing async executing.
+//Also in the pokerDiceRoller.js if we delete between the line 72-75 we don't see the rolling

@@ -17,19 +17,35 @@ function rollTheDices() {
 
   // TODO: expand the chain to include five dices
   return rollDice(1)
-    .then((value) => {
-      results.push(value);
+    .then((value1) => {
+      results.push(value1);
       return rollDice(2);
     })
-    .then((value) => {
-      results.push(value);
+    .then((value2) => {
+      results.push(value2);
+      return rollDice(3);
+    })
+    .then((value3) => {
+      results.push(value3);
+      return rollDice(4);
+    })
+    .then((value4) => {
+      results.push(value4);
+      return rollDice(5);
+    })
+    .then((value5) => {
+      results.push(value5);
       return results;
     });
 }
 
 rollTheDices()
-  .then((results) => console.log('Resolved!', results))
-  .catch((error) => console.log('Rejected!', error.message));
+  .then((value) => {
+    console.log('Resolved!', value);
+  })
+  .catch((error) => {
+    console.log('Rejected!',error.message);
+  });
 
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
