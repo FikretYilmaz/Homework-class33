@@ -17,27 +17,46 @@
 ------------------------------------------------------------------------------*/
 function requestData(url) {
   // TODO return a promise using `fetch()`
-}
-
-function renderImage(data) {
-  // TODO render the image to the DOM
-  console.log(data);
-}
-
-function renderError(error) {
-  // TODO render the error to the DOM
-  console.log(error);
-}
-
-// TODO refactor with async/await and try/catch
-function main() {
-  requestData('https://xkcd.now.sh/?comic=latest')
+  return fetch(url)
+    .then((res) => {
+      if (res.status >= 200 && res.status < 400) {
+        return res.json();
+      } else {
+        throw new Error('Can not get the Data');
+      }
+    })
     .then((data) => {
       renderImage(data);
     })
     .catch((error) => {
       renderError(error);
     });
+}
+
+function renderImage(data) {
+  // TODO render the image to the DOM
+  const myImg = document.createElement('img');
+  const myPicture = data.img;
+  myImg.src = myPicture;
+  document.body.appendChild(myImg);
+}
+
+function renderError(error) {
+  // TODO render the error to the DOM
+  const myErrorH1 = document.createElement('h1');
+  myErrorH1.textContent = error;
+  document.body.appendChild(myErrorH1);
+}
+
+// TODO refactor with async/await and try/catch
+async function main() {
+  try {
+    await requestData('https://xkcd.now.sh/?comic=latest').then((data) => {
+      renderImage(data);
+    });
+  } catch (error) {
+    renderError(error);
+  }
 }
 
 window.addEventListener('load', main);

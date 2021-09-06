@@ -20,18 +20,75 @@ Use async/await and try/catch to handle promises.
 Try and avoid using global variables. As much as possible, try and use function 
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+
+async function fetchData(url) {
+  try {
+    return await fetch(url);
+  } catch (err) {
+    console.log("Oop's:", err);
+  }
 }
 
-function fetchAndPopulatePokemons(/* TODO parameter(s) go here */) {
+function fetchAndPopulatePokemons() {
+  const dataOfPokemonName =
+    'https://pokeapi.co/api/v2/pokemon?limit=151&offset=151';
+  fetch(dataOfPokemonName)
+    .then((res) => {
+      if (res.status >= 200 && res.status < 400) {
+        return res.json();
+      } else {
+        throw new Error('Can not get the Data');
+      }
+    })
+    .then((data) => {
+      data.results.forEach((data) => {
+        const option = document.createElement('option');
+        selectSection.appendChild(option);
+        option.value = data.name;
+        option.textContent = data.name;
+      });
+      selectSection.addEventListener('change', () => {
+        fetchImage(selectSection.value);
+      });
+    });
   // TODO complete this function
+}
+//Create HTML Structure With DOM
+const header = document.createElement('h1');
+header.textContent = 'Please Choose a Pokemon ';
+document.body.appendChild(header);
+const brEl = document.createElement('br');
+header.appendChild(brEl);
+const selectionFrame = document.createElement('div');
+document.body.appendChild(selectionFrame);
+const selectSection = document.createElement('select');
+selectSection.id = 'selection';
+selectionFrame.appendChild(selectSection);
+const myImg = document.createElement('img');
+myImg.style.width = '200px';
+document.body.appendChild(myImg);
+
+async function fetchImage(pokemonName) {
+  try {
+    const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`;
+    const resolve = await fetchData(url);
+    if (resolve.status >= 200 && resolve.status < 400) {
+      //check if our promise return a valid data
+      const data = await resolve.json();
+      myImg.src = data.sprites.front_default; //Change img src
+    } else {
+      throw new Error('Can not get the IMG'); //This is our own message because here we try to get img src if I can not find I throw a clear message
+    }
+  } catch (err) {
+    console.log(err.message); // this is our default error for code block
+  }
 }
 
-function fetchImage(/* TODO parameter(s) go here */) {
-  // TODO complete this function
-}
+async function main() {
+  fetchAndPopulatePokemons();
+  fetchImage();
+  fetchData();
 
-function main() {
   // TODO complete this function
 }
+window.addEventListener('load', main);

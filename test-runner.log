@@ -1,0 +1,645 @@
+2021-09-04 11:42:10 info: ---------------------------------------------
+2021-09-04 11:42:10 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-04 11:42:10 info: ---------------------------------------------
+2021-09-04 11:42:20 error: *** Unit Test Error Report ***
+
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    ReferenceError: fetch is not defined
+        at requestData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:20:3)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex1-programmerFun/index.js:55:9)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+
+2021-09-04 11:42:22 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  42:3  warning  Remove commented-out code  hyf/no-commented-out-code
+  50:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-09-04 03:05:05 info: ---------------------------------------------
+2021-09-04 03:05:05 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-04 03:05:05 info: ---------------------------------------------
+2021-09-04 03:05:15 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    √ HTML should be syntactically valid (89 ms)
+    √ should use `fetch()` (1 ms)
+    × should use async/wait (2 ms)
+    √ should use try/catch
+
+  ● programmerFun › should use async/wait
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      48 |   test('should use async/wait', () => {
+      49 |     expect(state.async).toBeDefined();
+    > 50 |     expect(state.await).toBeDefined();
+         |                         ^
+      51 |   });
+      52 | 
+      53 |   test('should use try/catch', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:50:25)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        6.937 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-04 03:05:17 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  32:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-04 03:06:46 info: ---------------------------------------------
+2021-09-04 03:06:46 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-04 03:06:46 info: ---------------------------------------------
+2021-09-04 03:06:54 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    √ HTML should be syntactically valid (124 ms)
+    √ should use `fetch()` (1 ms)
+    × should use async/wait (3 ms)
+    √ should use try/catch
+
+  ● programmerFun › should use async/wait
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      48 |   test('should use async/wait', () => {
+      49 |     expect(state.async).toBeDefined();
+    > 50 |     expect(state.await).toBeDefined();
+         |                         ^
+      51 |   });
+      52 | 
+      53 |   test('should use try/catch', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:50:25)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        5.873 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-04 03:07:49 info: ---------------------------------------------
+2021-09-04 03:07:49 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-04 03:07:49 info: ---------------------------------------------
+2021-09-04 03:07:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    √ HTML should be syntactically valid (98 ms)
+    √ should use `fetch()`
+    × should use async/wait (3 ms)
+    √ should use try/catch
+
+  ● programmerFun › should use async/wait
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      48 |   test('should use async/wait', () => {
+      49 |     expect(state.async).toBeDefined();
+    > 50 |     expect(state.await).toBeDefined();
+         |                         ^
+      51 |   });
+      52 | 
+      53 |   test('should use try/catch', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:50:25)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        5.648 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-04 03:10:26 info: ---------------------------------------------
+2021-09-04 03:10:26 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-04 03:10:26 info: ---------------------------------------------
+2021-09-04 03:10:33 info: All unit tests passed.
+2021-09-04 03:10:37 info: All steps were completed successfully
+2021-09-04 08:32:43 info: ---------------------------------------------
+2021-09-04 08:32:43 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-04 08:32:43 info: ---------------------------------------------
+2021-09-04 08:32:55 info: All unit tests passed.
+2021-09-04 08:33:01 info: All steps were completed successfully
+2021-09-04 09:31:30 info: ------------------------------------------
+2021-09-04 09:31:30 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-04 09:31:30 info: ------------------------------------------
+2021-09-04 09:31:38 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [ReferenceError: fetch is not defined]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:341:9)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at DocumentImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at dispatchEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\Document-impl.js:476:9)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\Document-impl.js:481:11
+        at new Promise (<anonymous>)
+        at onLoad (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\Document-impl.js:479:14)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:83:27
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) ReferenceError: fetch is not defined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:49:3)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:91:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+      at EventTargetImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+      at fireAnEvent (node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+
+
+2021-09-04 09:31:40 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  40:7  warning  Remove commented-out code  hyf/no-commented-out-code
+  77:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-09-05 12:30:33 info: ---------------------------------------------
+2021-09-05 12:30:34 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-05 12:30:34 info: ---------------------------------------------
+2021-09-05 12:30:57 info: All unit tests passed.
+2021-09-05 12:31:07 info: All steps were completed successfully
+2021-09-05 12:39:17 info: ---------------------------------------------
+2021-09-05 12:39:17 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-05 12:39:17 info: ---------------------------------------------
+2021-09-05 12:39:35 info: All unit tests passed.
+2021-09-05 12:39:43 info: All steps were completed successfully
+2021-09-05 01:53:57 info: ------------------------------------------
+2021-09-05 01:53:57 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-05 01:53:57 info: ------------------------------------------
+2021-09-05 01:54:31 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [ReferenceError: fetch is not defined]
+        at reportException (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:62:24)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:341:9)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at DocumentImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at dispatchEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\Document-impl.js:476:9)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\Document-impl.js:481:11
+        at new Promise (<anonymous>)
+        at onLoad (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\nodes\Document-impl.js:479:14)
+        at Object.check (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:76:23)
+        at C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js:83:27
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:25:3)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:31:3)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:84:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+      at EventTargetImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+      at fireAnEvent (node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+
+
+2021-09-05 01:54:39 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  40:7  warning  Remove commented-out code  hyf/no-commented-out-code
+  68:9  warning  Remove commented-out code  hyf/no-commented-out-code
+  71:9  warning  Remove commented-out code  hyf/no-commented-out-code
+  74:7  warning  Remove commented-out code  hyf/no-commented-out-code
+  83:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 5 problems (0 errors, 5 warnings)
+
+
+2021-09-05 02:00:24 info: ---------------------------------------------
+2021-09-05 02:00:24 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-05 02:00:24 info: ---------------------------------------------
+2021-09-05 02:00:48 info: All unit tests passed.
+2021-09-05 02:01:05 info: All steps were completed successfully
+2021-09-05 02:05:51 info: ------------------------------------------
+2021-09-05 02:05:51 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-05 02:05:51 info: ------------------------------------------
+2021-09-05 02:06:17 error: *** Unit Test Error Report ***
+
+  console.log
+    Oop's: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:5)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:35:3)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:89:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    TypeError: Cannot read property 'status' of undefined
+        at file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:15
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+
+2021-09-05 02:06:24 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  44:7  warning  Remove commented-out code  hyf/no-commented-out-code
+  58:9  warning  Remove commented-out code  hyf/no-commented-out-code
+  64:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  73:9  warning  Remove commented-out code  hyf/no-commented-out-code
+  76:9  warning  Remove commented-out code  hyf/no-commented-out-code
+  79:7  warning  Remove commented-out code  hyf/no-commented-out-code
+  88:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 7 problems (0 errors, 7 warnings)
+
+
+2021-09-05 02:06:33 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:28:18 - Unknown word (Oop's)
+
+2021-09-06 04:30:02 info: ------------------------------------------
+2021-09-06 04:30:02 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:30:02 info: ------------------------------------------
+2021-09-06 04:30:11 error: *** Unit Test Error Report ***
+
+  console.log
+    Oop's: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:5)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:36:27)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:88:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    TypeError: Cannot read property 'status' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:17)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:30:15 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:28:18 - Unknown word (Oop's)
+
+2021-09-06 04:32:03 info: ------------------------------------------
+2021-09-06 04:32:03 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:32:03 info: ------------------------------------------
+2021-09-06 04:32:11 error: *** Unit Test Error Report ***
+
+  console.log
+    Oop's: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:5)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:36:27)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:84:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    TypeError: Cannot read property 'status' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:17)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:32:14 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:28:18 - Unknown word (Oop's)
+
+2021-09-06 04:33:24 info: ------------------------------------------
+2021-09-06 04:33:24 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:33:24 info: ------------------------------------------
+2021-09-06 04:33:32 error: *** Unit Test Error Report ***
+
+  console.log
+    Oop's: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:5)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:36:27)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:84:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    TypeError: Cannot read property 'status' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:17)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:33:37 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:28:18 - Unknown word (Oop's)
+
+2021-09-06 04:35:32 info: ------------------------------------------
+2021-09-06 04:35:32 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:35:32 info: ------------------------------------------
+2021-09-06 04:35:40 error: *** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:27)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:85:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    TypeError: Cannot read property 'status' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:38:17)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:40:13 info: ------------------------------------------
+2021-09-06 04:40:13 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:40:13 info: ------------------------------------------
+2021-09-06 04:40:20 error: *** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:28)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    undefined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    TypeError: Cannot read property 'status' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:39:18)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:40:47 info: ------------------------------------------
+2021-09-06 04:40:47 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:40:47 info: ------------------------------------------
+2021-09-06 04:40:55 error: *** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:28)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    undefined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    TypeError: Cannot read property 'ok' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:39:18)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:45:16 info: ------------------------------------------
+2021-09-06 04:45:16 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:45:16 info: ------------------------------------------
+2021-09-06 04:45:24 error: *** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:28)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    undefined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    ererr TypeError: Cannot read property 'ok' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:39:18)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:45:28 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:57:18 - Unknown word (ererr)
+
+2021-09-06 04:45:42 info: ------------------------------------------
+2021-09-06 04:45:42 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:45:42 info: ------------------------------------------
+2021-09-06 04:45:50 error: *** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:28)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:3)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    undefined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    ererr TypeError: Cannot read property 'ok' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:39:18)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:45:53 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:57:18 - Unknown word (ererr)
+
+2021-09-06 04:48:24 info: ------------------------------------------
+2021-09-06 04:48:24 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 04:48:24 info: ------------------------------------------
+2021-09-06 04:48:32 error: *** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:28)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:9)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    undefined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    ererr TypeError: Cannot read property 'ok' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:39:18)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:3)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 04:48:36 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:57:18 - Unknown word (ererr)
+
+2021-09-06 07:12:58 info: -----------------------------------------
+2021-09-06 07:12:58 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-06 07:12:58 info: -----------------------------------------
+2021-09-06 07:13:03 info: All unit tests passed.
+2021-09-06 07:13:07 info: All steps were completed successfully
+2021-09-06 07:26:35 info: ----------------------------------------
+2021-09-06 07:26:35 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-09-06 07:26:35 info: ----------------------------------------
+2021-09-06 07:26:40 info: All unit tests passed.
+2021-09-06 07:26:43 info: All steps were completed successfully

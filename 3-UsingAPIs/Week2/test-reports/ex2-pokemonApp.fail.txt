@@ -1,0 +1,34 @@
+*** Unit Test Error Report ***
+
+  console.log
+    Oops: ReferenceError: fetch is not defined
+        at fetchData (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:26:18)
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:37:28)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:9)
+        at callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+        at innerInvokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+        at invokeEventListeners (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+        at fireAnEvent (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\helpers\events.js:18:36)
+        at Document.<anonymous> (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\browser\Window.js:916:9)
+        at Document.callTheUserObjectsOperation (C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    undefined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.log
+    ererr TypeError: Cannot read property 'ok' of undefined
+        at fetchAndPopulatePokemons (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:39:18)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+        at main (file:///C:/Users/Gebruiker/Desktop/HYF-Curriculum/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:86:3)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+*** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:57:18 - Unknown word (ererr)
