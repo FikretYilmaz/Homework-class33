@@ -28,8 +28,8 @@ async function prepare() {
       resources: 'usable',
     }
   );
-
-  await sleep(500);
+  window.fetch = require('node-fetch'); // <- added
+  await sleep(1000); // <- increased from 500 to 1000
   return window;
 }
 

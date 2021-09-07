@@ -21,38 +21,6 @@ Try and avoid using global variables. As much as possible, try and use function
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
 
-async function fetchData(url) {
-  try {
-    return await fetch(url);
-  } catch (err) {
-    console.log("Oop's:", err);
-  }
-}
-
-function fetchAndPopulatePokemons() {
-  const dataOfPokemonName =
-    'https://pokeapi.co/api/v2/pokemon?limit=151&offset=151';
-  fetch(dataOfPokemonName)
-    .then((res) => {
-      if (res.status >= 200 && res.status < 400) {
-        return res.json();
-      } else {
-        throw new Error('Can not get the Data');
-      }
-    })
-    .then((data) => {
-      data.results.forEach((data) => {
-        const option = document.createElement('option');
-        selectSection.appendChild(option);
-        option.value = data.name;
-        option.textContent = data.name;
-      });
-      selectSection.addEventListener('change', () => {
-        fetchImage(selectSection.value);
-      });
-    });
-  // TODO complete this function
-}
 //Create HTML Structure With DOM
 const header = document.createElement('h1');
 header.textContent = 'Please Choose a Pokemon ';
@@ -64,9 +32,44 @@ document.body.appendChild(selectionFrame);
 const selectSection = document.createElement('select');
 selectSection.id = 'selection';
 selectionFrame.appendChild(selectSection);
-const myImg = document.createElement('img');
+const myImg = document.createElement('img'); // I create my Img here but I add it into html in the fetchImg function.
 myImg.style.width = '200px';
-document.body.appendChild(myImg);
+myImg.alt = 'pokemon-img';
+myImg.src;
+
+async function fetchData(url) {
+  try {
+    const response = await fetch(url);
+    console.log(response);
+    return response;
+  } catch (err) {
+    console.log('Oops:', err.message);
+  }
+}
+
+async function fetchAndPopulatePokemons() {
+  try {
+    const dataOfPokemonName =
+      'https://pokeapi.co/api/v2/pokemon?limit=151&offset=151';
+    const res = await fetch(dataOfPokemonName);
+    if (res.status >= 200 && res.status < 400) {
+      const data = await res.json();
+      data.results.forEach((data) => {
+        const option = document.createElement('option');
+        selectSection.appendChild(option);
+        option.value = data.name;
+        option.textContent = data.name;
+      });
+      selectSection.addEventListener('change', () => {
+        fetchImage(selectSection.value);
+      });
+    } else {
+      throw new Error('Can not get the Data');
+    }
+  } catch (err) {
+    console.log('Error is in the dataOfPokemonName Function', err);
+  }
+}
 
 async function fetchImage(pokemonName) {
   try {
@@ -75,20 +78,17 @@ async function fetchImage(pokemonName) {
     if (resolve.status >= 200 && resolve.status < 400) {
       //check if our promise return a valid data
       const data = await resolve.json();
+      document.body.appendChild(myImg);
       myImg.src = data.sprites.front_default; //Change img src
     } else {
       throw new Error('Can not get the IMG'); //This is our own message because here we try to get img src if I can not find I throw a clear message
     }
   } catch (err) {
-    console.log(err.message); // this is our default error for code block
+    console.log(err); // this is our default error for code block
   }
 }
 
 async function main() {
-  fetchAndPopulatePokemons();
-  fetchImage();
-  fetchData();
-
-  // TODO complete this function
+  await fetchAndPopulatePokemons();
 }
 window.addEventListener('load', main);

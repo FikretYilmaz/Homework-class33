@@ -9,7 +9,7 @@
 ------------------------------------------------------------------------------*/
 // ! Do not remove this line
 const rollDice = require('../../helpers/pokerDiceRoller');
-
+console.log(rollDice());
 function rollTheDices() {
   const dices = [1, 2, 3, 4, 5];
   const promiseList = [];
