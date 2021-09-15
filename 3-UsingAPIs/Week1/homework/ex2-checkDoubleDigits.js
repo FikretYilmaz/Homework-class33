@@ -15,12 +15,11 @@ function checkDoubleDigits(number) {
     if (number >= 10 && number <= 99) {
       resolve('This is a double digit number!');
     } else {
-      return reject(
+      reject(
         new Error(`Expected a double digit number but got ${number}`)
       );
     }
   });
-  // TODO complete this function
 }
 
 checkDoubleDigits(11) // should resolve

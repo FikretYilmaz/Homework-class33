@@ -44,12 +44,15 @@ function rollDice() {
 
 // TODO Refactor to use promise
 rollDice()
-  .then((message) => {
-    console.log(message);
+  .then((rollingDice) => {
+    console.log(rollingDice);
   })
   .catch((err) => {
-    console.log(err.message); //We have use .message because we create this message line 29 with reject
+    console.log(err.message); //I used .message to only show my message line 27 with reject.
+    //When I console.log(err), without message it gives my error message and detail about error.
   });
 
 // ! Do not change or remove the code below
 module.exports = rollDice;
+
+// When I Added return to line 27 it doesn't return anything after my dice is out of table. Because of this I dice don't rolling after it go out of the table.

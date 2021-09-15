@@ -26,7 +26,7 @@ const rollDice = require('../../helpers/pokerDiceRoller');
 function rollTheDices() {
   const dices = [1, 2, 3, 4, 5];
   const promiseTuple = [];
-  dices.map((dice) => {
+  dices.forEach((dice) => {
     promiseTuple.push(rollDice(dice));
   });
   // TODO Refactor this function
@@ -41,5 +41,22 @@ rollTheDices()
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
 
-//It is because of asynchronous execution(in pokerDiceRoller we have a setTimeout function which is async  func) and promise.all. Promise.all execute every code and give us a global catch for each dice but never stop executing async executing.
+//It is because of asynchronous execution(in pokerDiceRoller we have a setTimeout function which is async  func) and promise.all. Promise.all execute every code and give us a global catch for each dice but never stop executing async executing. But It is possible to change this behavior by handling possible rejections. If we add special catch to each promises we will console only the error and resolve the rest.
+//this cde block is from mozilla.org:
+//var p1 = new Promise((resolve, reject) => {
+//   setTimeout(() => resolve('p1_delayed_resolution'), 1000);
+// });
+
+// var p2 = new Promise((resolve, reject) => {
+//   reject(new Error('p2_immediate_rejection'));
+// });
+
+// Promise.all([
+//   p1.catch(error => { return error }),
+//   p2.catch(error => { return error }),
+// ]).then(values => {
+//   console.log(values[0]) // "p1_delayed_resolution"
+//   console.error(values[1]) // "Error: p2_immediate_rejection"
+// })
+
 //Also in the pokerDiceRoller.js if we delete between the line 72-75 we don't see the rolling

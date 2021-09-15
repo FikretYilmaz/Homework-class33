@@ -23,11 +23,11 @@ function getAnonName(firstName) {
 }
 
 getAnonName('John', console.log)
-  .then((message) => {
-    console.log(message);
+  .then((showName) => {
+    console.log(showName);
   })
   .catch((err) => {
-    console.log(err);
+    console.log(err.message);
   });
 
 // ! Do not change or remove the code below

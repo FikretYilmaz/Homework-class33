@@ -650,3 +650,8 @@ ex4-pokerDiceAll.js:35:21 - Unknown word (Obada's)
 2021-08-31 11:44:35 info: ----------------------------------------------
 2021-08-31 11:44:38 info: All unit tests passed.
 2021-08-31 11:44:42 info: All steps were completed successfully
+2021-09-15 10:47:13 info: -------------------------------------------------
+2021-09-15 10:47:13 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-09-15 10:47:13 info: -------------------------------------------------
+2021-09-15 10:47:21 info: All unit tests passed.
+2021-09-15 10:47:26 info: All steps were completed successfully
