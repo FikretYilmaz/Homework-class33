@@ -35,7 +35,8 @@ selectionFrame.appendChild(selectSection);
 const myImg = document.createElement('img'); // I create my Img here but I add it into html in the fetchImg function.
 myImg.style.width = '200px';
 myImg.alt = 'pokemon-img';
-myImg.src;
+document.body.appendChild(myImg);
+myImg.style.display = 'none';
 
 async function fetchData(url) {
   try {
@@ -78,7 +79,7 @@ async function fetchImage(pokemonName) {
     if (resolve.status >= 200 && resolve.status < 400) {
       //check if our promise return a valid data
       const data = await resolve.json();
-      document.body.appendChild(myImg);
+      myImg.style.display = 'inline';
       myImg.src = data.sprites.front_default; //Change img src
     } else {
       throw new Error('Can not get the IMG'); //This is our own message because here we try to get img src if I can not find I throw a clear message

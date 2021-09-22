@@ -17,20 +17,13 @@
 ------------------------------------------------------------------------------*/
 function requestData(url) {
   // TODO return a promise using `fetch()`
-  return fetch(url)
-    .then((res) => {
-      if (res.status >= 200 && res.status < 400) {
-        return res.json();
-      } else {
-        throw new Error('Can not get the Data');
-      }
-    })
-    .then((data) => {
-      renderImage(data);
-    })
-    .catch((error) => {
-      renderError(error);
-    });
+  return fetch(url).then((res) => {
+    if (res.ok) {
+      return res.json();
+    } else {
+      throw new Error('Can not get the Data');
+    }
+  });
 }
 
 function renderImage(data) {
@@ -51,9 +44,8 @@ function renderError(error) {
 // TODO refactor with async/await and try/catch
 async function main() {
   try {
-    await requestData('https://xkcd.now.sh/?comic=latest').then((data) => {
-      renderImage(data);
-    });
+    const data = await requestData('https://xkcd.now.sh/?comic=latest');
+    renderImage(data);
   } catch (error) {
     renderError(error);
   }

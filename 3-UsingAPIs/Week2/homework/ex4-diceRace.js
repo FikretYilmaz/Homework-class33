@@ -17,7 +17,6 @@ function rollTheDices() {
     promiseList.push(rollDice(dice));
   });
   return Promise.race(promiseList);
-  // TODO complete this function; use Promise.race() and rollDice()
 }
 
 // Refactor this function to use async/await and try/catch
